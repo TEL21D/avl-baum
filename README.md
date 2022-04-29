@@ -10,8 +10,8 @@ Implementieren Sie die Funktionen
 `rotateRight(`,
 `rotateLeftRight()` und
 `rotateRightLeft()`,
-die in `element.h` deklariert sind.
-(Siehe Kommentar dazu in `element.h`.)
+die in `element.hpp` deklariert sind.
+(Siehe Kommentar dazu in `element.hpp`.)
 
 ## Rotationen beim Einfügen durchführen
 Passen Sie `Element::insert()` so an, dass vor dem Ende der Rekursion jeweils

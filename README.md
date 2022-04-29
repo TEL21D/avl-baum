@@ -23,3 +23,8 @@ passende Rotation durchgeführt wird.
 - Das Program kann via `make run` ausgeführt werden und gibt den Baum also [dotString](https://graphviz.org/doc/info/lang.html) aus.
 - Die Ausgabe kann kopiert werden und via [GraphvizOnline](https://dreampuf.github.io/GraphvizOnline/) visualisiert werden
 - Zusatzaufgabe: Die Methode `string Element::dotString()` so anpassen, dass direkt ein aufrufbarer Link zur Ausgabe des Baum auf GraphvizOnline erstellt wird (Tipp: [url encoding](https://www.w3schools.com/tags/ref_urlencode.asp) der Symbole beachten).
+
+
+### Ausgabe in Graphviz
+- Vor der Balancierung: [Link](https://dreampuf.github.io/GraphvizOnline/#digraph%20G%20%7B%0A%20%2042%20-%3E%2023%0A%20%2042%20-%3E%2077%0A%20%2023%20-%3E%205%0A%20%2023%20-%3E%2038%0A%20%205%20-%3E%201%0A%7D)
+- Erwarteter Baum nach der Balancierung: [Link](https://dreampuf.github.io/GraphvizOnline/#digraph%20G%20%7B%0A%20%2023%20-%3E%205%0A%20%2023%20-%3E%2042%0A%20%205%20-%3E%201%0A%20%2042%20-%3E%2038%0A%20%2042%20-%3E%2077%0A%7D)
